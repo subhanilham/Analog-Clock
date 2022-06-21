@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.watch{
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    border: 12px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9,26,33,255);
+    /* padding-bottom: 50px; */
+}
+
+.minutes{
+    height: 400px;
+    width: 6px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+}
+
+.main2{
+    width: 100%;
+    height: 200px;
+    background-color: #f6f7f8;
+    border-radius: 45%;
+    position: absolute;
+}
+
+.hours{
+    height: 250px;
+    width: 8px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+}
+
+.main3{
+    width: 100%;
+    height: 125px;
+    background-color: #ef185e;
+    border-radius: 45%;
+    position: absolute;
+}
+
+.seconds{
+    height: 500px;
+    width: 6px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+}
+
+.main{
+    width: 100%;
+    height: 250px;
+    background-color:#2088f0;
+    border-radius: 45%;
+    position: absolute;
+}
+
+.circle{
+    border: 3px solid black;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #fcf7fd;
+}
+
+.dotes{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    background:#020202;
+    position: absolute;
+}
+
+#one{transform: rotate(30deg) translateY(-270px)}
+
+#two{transform: rotate(60deg) translateY(-270px)}
+
+#three{transform: rotate(90deg) translateY(-270px)}
+
+#four{transform: rotate(120deg) translateY(-270px)}
+
+#five{transform: rotate(150deg) translateY(-270px)}
+
+#six{transform: rotate(180deg) translateY(-270px)}
+
+#seven{transform: rotate(210deg) translateY(-270px)}
+
+#eight{transform: rotate(240deg) translateY(-270px)}
+
+#nine{transform: rotate(270deg) translateY(-270px)}
+
+#ten{transform: rotate(300deg) translateY(-270px)}
+
+#elv{transform: rotate(330deg) translateY(-270px)}
+
+#tw{transform: rotate(0deg) translateY(-270px)}
