@@ -74,7 +74,7 @@ function start(){
         else{
             document.getElementById("elv").style.backgroundColor = "#020202";
         }
-        if(s == 60){
+        if(s == 0){
             document.getElementById("tw").style.backgroundColor = "#2088f0";
         }
         else{
